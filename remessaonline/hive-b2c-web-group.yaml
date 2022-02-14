@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: hive-b2c-app
-  description: Hive B2C App
+  name: hive-b2c-web
+  description: Hive B2C Web
 spec:
   type: team
   profile:
-    displayName: Hive B2C App
+    displayName: Hive B2C Web
     email: team-d@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-d@example.com.svg?background=%23fff&margin=25
   parent: remessaonline

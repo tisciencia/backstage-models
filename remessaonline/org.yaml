@@ -14,7 +14,7 @@ spec:
     displayName: Remessa Online
     email: tiago.sciencia@remessaonline.com.br
     picture: https://scontent.fcgh37-1.fna.fbcdn.net/v/t1.6435-9/69895703_2434759896643758_3425792505155682304_n.png?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=aKnehgzOJYYAX-WGCER&_nc_pt=1&_nc_ht=scontent.fcgh37-1.fna&oh=00_AT8Gc-1Gsp8jTy8hlFnURMZRKo3kTXJu-b61IUu_CtScHQ&oe=622F5F2B
-  children: [infrastructure]
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
@@ -24,5 +24,5 @@ metadata:
 spec:
   targets:
     - ./hive-b2c-app-group.yaml
-    - ./hive-b2c-group.yaml
+    - ./hive-b2c-web-group.yaml
     - ./hive-transaction-engine-group.yaml 
