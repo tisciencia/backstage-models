@@ -19,7 +19,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: groups
+  name: remessaonline-groups
   description: A collection of all Backstage example Groups
 spec:
   targets:
