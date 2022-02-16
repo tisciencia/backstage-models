@@ -12,6 +12,17 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: tiago.sciencia
+spec:
+  profile:
+    displayName: Tiago Sciencia
+    email: tiago.sciencia@remessaonline.com.br
+    picture: https://ca.slack-edge.com/TL3PXCH4L-U0296SJN0AU-c907ac8cc245-512
+  memberOf: [hive-b2c-app]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: lucy.sheehan
 spec:
   profile:
