@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: remessaonline-oraculo
-  description: Catálogo de sistemas
+  description: Catalogo de sistemas
   tags:
     - python
     - django
