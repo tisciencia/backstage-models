@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: remessaonline-oraculo
+  description: Catálogo de sistemas
+  tags:
+    - python
+    - django
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+    - url: https://example.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+spec:
+  type: service
+  lifecycle: experimental
+  owner: remessaonline
+  system: remessaonline-oraculo
+  dependsOn: ['resource:beecambio-db']
