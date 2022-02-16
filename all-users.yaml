@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: victor.faria
+spec:
+  profile:
+    displayName: Victor Faria
+    email: victor.faria@remessaonline.com.br
+    picture: https://ca.slack-edge.com/TL3PXCH4L-ULV0CPDQD-903d9768ed0f-512
+  memberOf: [hive-transaction-engine]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: lucy.sheehan
+spec:
+  profile:
+    displayName: Lucy Sheehan
+    email: lucy-sheehan@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/lucy-sheehan@example.com.svg?background=%23fff
+  memberOf: [hive-transaction-engine]
