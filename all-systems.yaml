@@ -6,7 +6,7 @@ metadata:
 spec:
   targets:
     - ./systems/remessaonline-app-pf-system.yaml
-    - ./systems/backoffice-system.yaml
-    - ./systems/oraculo-system.yaml
+    - ./systems/remessaonline-backoffice-system.yaml
+    - ./systems/remessaonline-oraculo-system.yaml
     - ./systems/remessaonline-site-pf-system.yaml
     - ./systems/remessaonline-site-pj-system.yaml
