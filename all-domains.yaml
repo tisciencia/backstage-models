@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: remessaonline-domains
+  description: A collection of all Backstage example domains
+spec:
+  targets:
+    - ./domains/pricing-domain.yaml
+    - ./domains/remessa-pf-domain.yaml

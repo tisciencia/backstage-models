@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: remessaonline-app-pf
+  description: Everything related to app pf
+  tags:
+    - app
+spec:
+  owner: hive-b2c-app
+  domain: remessa-pf

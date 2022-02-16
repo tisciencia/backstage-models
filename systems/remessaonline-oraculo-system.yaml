@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: oraculo
+  description: Everything related to app pf
+spec:
+  owner: remessaonline

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: pricing
+  description: Everything related to pricing
+  links:
+    - url: http://example.com/domain/pricing/
+      title: Domain Readme
+    - url: http://example.com/domains/pricing/dashboard
+      title: Domain Metrics Dashboard
+      icon: dashboard
+spec:
+  owner: hive-transaction-engine

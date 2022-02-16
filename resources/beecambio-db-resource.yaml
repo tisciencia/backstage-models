@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: beecambio-db
+  description: Stores beecambio details
+spec:
+  type: database
+  owner: remessaonline

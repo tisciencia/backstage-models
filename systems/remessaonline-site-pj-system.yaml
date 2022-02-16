@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: remessaonline-site-pj
+  description: Everything related to site pj
+  tags:
+    - portal
+spec:
+  owner: hive-b2c-web
+  domain: remessa-pf

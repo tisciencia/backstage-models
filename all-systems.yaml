@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: remessaonline-systems
+  description: A collection of all Backstage example systems
+spec:
+  targets:
+    - ./systems/remessaonline-app-pf-system.yaml
+    - ./systems/backoffice-system.yaml
+    - ./systems/oraculo-system.yaml
+    - ./systems/remessaonline-site-pf-system.yaml
+    - ./systems/remessaonline-site-pj-system.yaml
